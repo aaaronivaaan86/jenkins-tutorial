@@ -13,7 +13,7 @@ pipeline {
         stage("Step 1") {
             steps {
                 script {
-                    sh "echo hola mundo"
+                    sh "bat hola mundo"
                 }
             }
         }
